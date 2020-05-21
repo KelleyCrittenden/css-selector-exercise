@@ -1,0 +1,59 @@
+header {
+    border: 1px;
+    border-style: dashed;
+    border-color: goldenrod;
+    display: flex;
+    
+}
+
+header nav li {
+    padding: 10px; 
+    display: inline;
+    
+}
+
+nav {
+    display: inline;
+	justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .05em;
+    text-align: center;
+}  
+
+.disabled {
+    color: grey;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent div:nth-child(1) {
+    color: red;
+}
+
+.parent div:nth-child(3) {
+    color: blue;
+}
+
+.parent div:nth-child(1) + h4 {
+    background-color: red;
+}
+
+.parent div:nth-child(3) + h4 {
+    background-color: blue;
+}
+
+.promo {
+    font-style: bold;
+    color: gold;
+}
+
+.grandparent > h4 {
+    border: 1px solid goldenrod;
+    border-radius: 1em;
+}
+
+footer input {
+    font-size: 25px;
+}
